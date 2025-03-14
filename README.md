@@ -2,6 +2,8 @@
 
 Welcome to the **Songs Microservice**! This is a simple microservice that provides access to a collection of songs. It's built using **Flask** and connects to a **MongoDB** database to store song information. 🚀
 
+ ![Deploying the Songs microservice on RedHat OpenShift](https://github.com/Willie-Conway/Deploying-Microservices/blob/7e4823a837bebd85a39ae6fbdf5e5747d837de9e/Screenshots/Deploying%20the%20Songs%20microservice%20on%20RedHat%20OpenShift.gif)
+
 ## 💡 Features
 - 🎤 **Add songs** to the database.
 - 🎧 **Retrieve all songs** from the database.
