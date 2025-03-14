@@ -2,7 +2,7 @@
 
 Welcome to the **Songs Microservice**! This is a simple microservice that provides access to a collection of songs. It's built using **Flask** and connects to a **MongoDB** database to store song information. 🚀
 
- ![Deploying the Songs microservice on RedHat OpenShift](https://github.com/Willie-Conway/Deploying-Microservices/blob/7e4823a837bebd85a39ae6fbdf5e5747d837de9e/Screenshots/Deploying%20the%20Songs%20microservice%20on%20RedHat%20OpenShift.gif)
+![Deploying the Songs microservice on RedHat OpenShift](https://github.com/Willie-Conway/Deploying-Microservices/blob/main/Screenshots/Deploying%20the%20Songs%20microservice%20on%20RedHat%20OpenShift.gif)
 
 ## 💡 Features
 - 🎤 **Add songs** to the database.
@@ -15,6 +15,13 @@ Welcome to the **Songs Microservice**! This is a simple microservice that provid
 - **MongoDB** 🗃️
 - **OpenShift** ☁️
 - **GitHub** 💻
+
+## 🎯 Learning Objectives
+After completing this lab, you will be able to:
+- Start **Code Engine** service in the lab environment.
+- Deploy a **Flask service** to **Code Engine**.
+- Access the **RedHat OpenShift** platform in the lab environment.
+- Deploy a **Flask service** to **RedHat OpenShift**.
 
 ## 📦 Setup Instructions
 
@@ -40,7 +47,7 @@ Ensure that the MongoDB service is up and running. Use the internal MongoDB URL 
 
 Example MongoDB URL:
 ```
-mongo.sn-labs-captainfedo1.svc.cluster.local
+mongo.sn-labs-hirewillieco.svc.cluster.local
 ```
 
 ### 4️⃣ Running the Service Locally
@@ -64,13 +71,13 @@ oc new-app https://github.com/${GITHUB_ACCOUNT}/Back-End-Development-Songs --str
 Once deployed, you can access the Songs microservice via the following URL:
 
 ```text
-http://songs-sn-labs-captainfedo1.labs-prod-openshift-san-a45631dc5778dc6371c67d206ba9ae5c-0000.us-east.containers.appdomain.cloud
+http://songs-sn-labs-hirewillieco.labs-prod-openshift-san-a45631dc5778dc6371c67d206ba9ae5c-0000.us-east.containers.appdomain.cloud
 ```
 
 Use the `/health` endpoint to check if the service is running smoothly:
 
 ```text
-http://songs-sn-labs-captainfedo1.labs-prod-openshift-san-a45631dc5778dc6371c67d206ba9ae5c-0000.us-east.containers.appdomain.cloud/health
+http://songs-sn-labs-hirewillieco.labs-prod-openshift-san-a45631dc5778dc6371c67d206ba9ae5c-0000.us-east.containers.appdomain.cloud/health
 ```
 
 It will return a response like:
@@ -79,6 +86,17 @@ It will return a response like:
   "status": "OK"
 }
 ```
+
+## 📸 Screenshots
+
+### 1️⃣ Deploying the Songs microservice on RedHat OpenShift
+![Deploying Songs Service on OpenShift](https://github.com/Willie-Conway/Deploying-Microservices/blob/main/Screenshots/deploy-getsong-3.jpg)
+
+### 2️⃣ Exposing the Service
+![Exposing Songs Service](https://github.com/Willie-Conway/Deploying-Microservices/blob/main/Screenshots/deploy-getsong-4.jpg)
+
+### 3️⃣ Health Check Endpoint Response
+![Health Check](https://github.com/Willie-Conway/Deploying-Microservices/blob/main/Screenshots/deploy-getsong-5.jpg)
 
 ## 🚧 Contributing
 
@@ -102,15 +120,3 @@ For any questions or suggestions, feel free to reach out to me via:
 - GitHub: [Willie-Conway](https://github.com/Willie-Conway) 👨‍💻
 
 Happy coding! 🎉
-
-### Key Sections:
-
-1. **Project Title**: Includes a title with relevant emojis.
-2. **Features**: Highlights features of the project using emojis.
-3. **Technologies Used**: Mentions technologies with related emojis.
-4. **Setup Instructions**: Describes how to clone, install, and run the project.
-5. **Deployment**: Explains how to deploy the microservice to OpenShift.
-6. **Accessing the Service**: Includes details on how to access the health endpoint.
-7. **Contributing**: A friendly guide for contributing.
-8. **License**: States the project license.
-9. **Contact**: Information on how to contact the developer.
