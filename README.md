@@ -9,7 +9,7 @@ Welcome to the **Songs Microservice**! This is a simple microservice that provid
 
 ## 🛠️ Technologies Used
 - **Python** 🐍
-- **Flask** 🔥
+- **Flask** 🐚
 - **MongoDB** 🗃️
 - **OpenShift** ☁️
 - **GitHub** 💻
