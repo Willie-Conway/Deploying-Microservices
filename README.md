@@ -1,4 +1,4 @@
-# 🎶 Deploying Microservices 🎵
+# 🎶 Deploying Songs Microservices 🎵
 
 Welcome to the **Songs Microservice**! This is a simple microservice that provides access to a collection of songs. It's built using **Flask** and connects to a **MongoDB** database to store song information. 🚀
 
